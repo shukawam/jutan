@@ -1,0 +1,133 @@
+title,abstract
+（同時通訳付）AI Summit Japan 2024 Fireside Chat [SJP1047],"NVIDIA の創業者/CEO であるジェンスン フアン とソフトバンクグループ株式会社 代表取締役 会長兼社長執行役員である孫正義氏との対談を視聴し、AIとアクセラレーテッドコンピューティングで何が可能になるのかをお聴きください。
+
+Conversation with NVIDIA founder and CEO Jensen Huang and Softbank Group Corp. CEO Masayoshi Son to hear what's possible with AI and accelerated computing."
+"GMO が支える AI・ロボティクス社会の計算基盤とセキュリティ, presented by GMO インターネット株式会社 [SJP1087]","Windows95登場を皮切りに始まったインターネット革命。GMOはインターネットインフラに注力し続けてきました。これまでの産業革命が55年周期であることを踏まえて丁度半分の27.5年が経った2022年にChatGPTが登場、インターネット革命の後半戦はAI・ロボティクス革命に突入しました。
+今後AI・ロボティクスが社会に普及していく中で、GMOはAI・ロボティクスのためのインフラに注力して提供していくことが重要であると考えています。本講演ではAI・ロボティクス社会における重要領域であるGPU計算資源と秘密計算などAI・ロボティクス時代のセキュリティについて、なぜ重要であるかといった解説やGMOの取り組みの紹介を通して理解を深めていただきます。"
+"[昼食付] HPE と NVIDIA が切り拓くオンプレミス LLM の新時代, presented by 日本ヒューレット・パッカード合同会社 [SJP1090]","HPEとNVIDIAの協力によって実現した「HPE Private Cloud AI」を中心に、オンプレミスLLMの新しい可能性について探ります。生成AI ISVベンダーとの協業も含めたオンプレミスLLMの導入を加速するための戦略とベストプラクティスをご紹介します。
+本セッションは昼食付です。"
+未来を共に歩む  ～ 生成AIがもたらす社会的変革とマイクロソフトのビジョン ～  presented by 日本マイクロソフト株式会社　 [SJP1108],人類史における様々な産業革命や技術革新を経て今日に至る私たちは今、生成AIという大きな技術革新のうねりの中で新しい世界に向けて共に歩みを進めようとしています。技術とは人類の英知の結晶でもありますが、同時にそれが様々な人の手に届かなければ世の中が変わっていくことは難しいと言えます。当講演では、エヌビディアとのパートナーシップによって成し遂げられることをご理解頂き、ビジネスの世界で起きている生成AI活用の”リアル”を踏まえた上で、マイクロソフトがどのようにその先の未来を思い描き変革しようとしているのか、ビジョンをご説明いたします。
+"革新的 AI 創薬コミュニティ「Tokyo-1」、ダイナミックプライシング： 三井物産が挑む社会課題と革新的ソリューション紹介, presented by 三井物産株式会社 [SJP1073]","三井物産は、AI技術を活用しあらゆる産業での変革と社会課題の解決に挑んでいます。
+このセッションでは、具体的な取組事例として、革新的AI創薬コミュニティ「Tokyo-1」とダイナミックプライシングサービスをご紹介します。
+先ず、2024年2月よりサービスを開始した「Tokyo-1」は、創薬をはじめとするヘルスケア産業をデジタルで変革する「イノベーションハブ」として、NVIDIAとのパートナーシップの下立ち上げたプロジェクトです。最新のスーパーコンピュータ、最先端のAIソリューション、連携コミュニティの3つを包括的に提供することで、欧米と比較しAI活用が後れる国内ヘルスケア産業でのAI活用促進に貢献しています。
+また、ダイナミックプラス社は、価値と価格が最適化された世界を目指し、AIを駆使したダイナミックプライシングとレベニューマネジメントサービスを提供しています。このサービスを通じ、需要と供給の変動に応じて価格を最適化することで、企業が収益を最大化し、顧客にとっても最適な価格を実現します。
+2つの具体的な事例を通じ、AI技術を活用した革新的なビジネスの形成とイノベーションの実現についてご説明します。"
+EthernetベースのGPUクラスタ導入による学びと展望 [SJP1061],"このセッションでは、LINEヤフーがEthernetベースのGPUクラスタを導入する中で直面した課題とその解決策について紹介します。
+今回LINEヤフーでは機械学習基盤として、新たにH100 GPUのためのEthernetベースのネットワークをNVIDIA ConnectX-7、およびNVIDIA Spectrum-3スイッチで構築しました。
+AIの分散学習においては特にネットワークのパフォーマンスが重要になるため、Lossless Ethernetの技術としてRoCEv2を採用しました。
+このセッションを通して、私たちがなぜEthernetを選択したのか、実際にEthernetで構築する中で直面した特有の課題、それらの各レイヤごとの技術的解決策や勘所について知ることができます。
+最後に、今後のAI時代のネットワークに必要となる技術への期待と展望についてお話しします。"
+Megatron-LM と GKE で作る Mixtral 8x7B の語彙拡張継続事前学習  [SJP1055],"ABEJAは国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）が公募した「ポスト5G情報通信システム基盤強化研究開発事業／ポスト5G情報通信システムの開発」に当社提案の「LLMの社会実装に向けた特化型モデルの元となる汎化的LLM」が採択されたことを受け、LLMの事前学習を実施しました。本プロジェクトは、日本の経済産業省（METI）の支援のもと立ち上がったGenerative AI Accelerator Challenge(GENIAC)の活動の一環になります。
+本プロジェクトで、ABEJAは日本語に特化したMoEベースの大規模言語モデル（LLM）「Mixtral 8x7B」の日本語語彙拡張継続事前学習に挑戦しました。当時、Megatron-LMを使用したMixtral 8x7Bの継続事前学習を行うためのオープンソースコードは存在せず、このプロジェクトには数々の課題が伴いました。課題の中には、大規模な日本語コーパスの作成、Google Cloudでの大規模クラスター（k8s）の構築、MixtralモデルのMegatron-LMへの適用、そして分散トレーニング技術の導入が含まれます。これらの挑戦から得られたモデル[abeja/Mixtral-8x7B-Instruct-v0.1-japanese](https://huggingface.co/abeja/Mixtral-8x7B-Instruct-v0.1-japanese)はオープンソースとして公開しています。本セッションでは、この開発の経緯、得られたノウハウや成果について詳しくご紹介いたします。"
+"NEC の生成 AI 活用について, presented by 日本電気株式会社 [SJP1074]",NECは、生成AIをビジネスに活用し、業務の効率化と新しいサービスの提供を実現しています。生成AIの活用は、多くの期待が寄せられる一方で、実際のユーザ価値の実現には、いくつかのステップを経る必要があります。NECは、このステップを乗り越えるための技術力と体制を持っています。本講演では、NECにおける生成AI活用事例と、それを実現するプロセスについてお話しします。生成AIの可能性と未来について、皆様と一緒に考えていきたいと思います。
+イメージセンサ検査の技術革新：AIとGPUが実現するリアルタイム半導体データ分析 [SJP1079],"本講演では、イメージセンサの評価・検査システム向けに開発したGPU画像信号処理とデータ転送ネットワーキング技術について掘り下げ、そこで得られる画像データを分析するAIファクトリーの未来像についてお話します。
+イメージセンサの高性能化に伴い、処理すべきデータ量は爆発的な増大を続けています。このデータに対する処理能力を数倍に向上させるためにGPU画像信号処理と、 100GbイーサネットによるセンサとGPUノード間の低遅延データ転送の開発を行いました。
+さらに、NVIDIA 社が提供する DOCA、Holoscan、GPUDirect RDMA といった技術を活用することで、複数の装置から1Tbps超の帯域で画像データを収集した上でAIによる学習・推論環境を実現する、GPUクラスタで構成された未来のインフラストラクチャについて考えます。"
+デジタルツインと産業用メタバースの未来： Omniverse と OpenUSD の実践的活用法  [SJP1032],デジタルツインと産業用メタバースの最新技術動向を Omniverse と OpenUSD を用いた実際のプロジェクト事例を通じて学びます。リアルタイムコラボレーションや高品質なレンダリング、データ互換性の重要性についても事例を通して理解を深めることが可能です。デモンストレーションでは Kit-app-template を利用した Extension 開発などの基本的な Omniverse での開発からアプリ開発例まで具体的なプロセスを体験します。
+（同時通訳付）AI ネットワーク イノベーションの新境地へ  Entering a New Frontier of AI Networking Innovation [SJP1045],"NVIDIA Quantum InfiniBandとSpectrum-X Ethernetは、AIの学習と大規模展開において、事実上のネットワーク標準として登場しました。InfiniBandのIn-Network Computing機能、超低レイテンシ、および高帯域幅により、より大規模で複雑な基盤モデルの構築が容易になりました。Spectrum-Xは、AIインフラをサポートできる初のイーサネットプラットフォームであり、ハイパースケールAIクラウドや企業向けに、生成AIに最適化されたネットワークを提供します。新しいNVIDIA Quantum-X800 InfiniBandおよびSpectrum-X800イーサネットプラットフォーム、そして次世代AIデータセンター設計における両プラットフォームの重要な役割について詳しく見ていきましょう。
+
+
+
+NVIDIA Quantum InfiniBand and Spectrum-X Ethernet have emerged as the de facto network standards for training and deploying AI at scale. InfiniBand's in-network computing, ultra-low latency, and high bandwidth capabilities have facilitated creating larger and more complex foundational models. And Spectrum-X is the first Ethernet platform capable of supporting AI infrastructure, delivering networking optimized for generative AI to hyperscale AI clouds and enterprises. We'll dive deep into both platforms, including new NVIDIA Quantum-X800 InfiniBand and Spectrum-X800 Ethernet platforms and their essential roles in next-generation AI data center designs."
+実例から学ぶ量子古典ハイブリッドシステムのコンセプトとデザイン [SJP1044],"このセッションでは、産業技術総合研究所および理化学研究所がそれぞれ開発している量子-古典ハイブリッドプラットフォームのコンセプトとデザインについて紹介します。
+様々な方式の量子コンピュータとスーパーコンピュータをどのように連携させるのか、また研究者がどのように利用していくのか、さらにどのように応用に繋げていくのか、CUDA-Qプラットフォームを利用しどのようにこれらを実現していくかを議論します。"
+日本の生成 AI 現在地と未来 〜 今知っておくべきこととは 〜  [SJP1023],2022年に生成 AI が爆発的発展をスタートし、2023年は日本でも政府による AI 施策や企業における生成 AI アプリの概念実証が進みました。今後は社会や企業の本番環境での実装が加速され、AI がビジネス戦略の中核となる未来が期待されています。当講演では、日本におけるAI の現状や課題を整理しながら、AI や 生成 AI が産業にもたらす可能性や新たな未来についてご説明します。
+"生成 AI から Omniverse まで、用途に合った GPU と GPU サーバーの適切な選択方法とは, presented by スーパーマイクロ株式会社 [SJP1065]",先端AIサーバーでは国内外で業界をリードしている SUPERMICRO の最新GPUプラットフォームを例に、H200/H200NVL、GH200/GB200、HGX、MGX、OVX、RTX どの用途にどのGPUとGPUサーバーが最適な選択となるのか、活用方法を、生成AI、HPC、デジタルツインの視点で学びます。AI/HPCでは、H200、Blackwell B200を搭載するHGX最新機種、GraceHopper GH200、GraceBlackwell GB200 SuperClusterの最新情報と、昨今話題の中心になっている水冷化についても考えます。Omniverse&デジタルツインでは、MGX、OVX、vGPU、広帯域ネットワークを含め、3次元グラフィックス＋AIコラボレーションの環境構築に不可欠な、GPUプラットフォームについて掘り下げます。
+NVIDIA NIM ですぐに実現する本番環境での高速な LLM 推論 [SJP1051],"最適化された生成 AI モデルのデプロイを簡単に行えるようにする NVIDIA NIM の機能と、LLM の推論を最適化するために使われている技術について解説します。生成 AI の推論は、計算負荷の高い処理であり、最適化の有無がコストやユーザー体験に大きな影響を及ぼします。本セッションでは LLM 推論に特化した NIM for Large Language Models と、バックエンドの推論エンジンとして用いられている TensorRT-LLM の機能にフォーカスし、LLM 推論の技術的なチャレンジと、それに対する様々な最適化技術（ FP8 を含む Low-precision, カスタムAttention Kernel, KV Cache 管理など）を紹介します。"
+NVIDIA ソフトウエアスタックで実現する次世代デジタルストアの研究 [SJP1031],"セブン＆アイ・ホールディングスは、NVIDIA Metropolis と NVIDIA Omniverse をいち早く活用し、NVIDIA の専門家とコラボレーションをしてきました。
+このコラボレーションにより、セブン＆アイ・ホールディングスは、Omniverse上で複数のバーチャルヒューマンの動作シミュレーションし、Metropolis によるマルチカメラトラッキングと Pose 推定によるリアルタイム顧客行動分析、さらには Merlin の Transformer4Rec を用いた最適な商品レコメンドを提供する、デジタルストアソリューションの構築ができるようになりました。
+本講演では、NVIDIA ソフトウエアスタックを活用したデジタルストア構築方法、リアルタイム顧客行動分析、最適な商品レコメンデーションの実現に向けた具体的なアプローチを提供します。そしてこのデジタルストアソリューションが小売業におけるオペレーションや顧客体験をどのように変革するかについての展望をお話いたします。
+また、事前知識として、小売業界の基礎知識やデジタル技術と AI の基礎知識があると、本講演の理解が深まります。"
+"すべてのデータに AI を：AI 基盤の最適化と今後の展望, presented by デル・テクノロジーズ株式会社 [SJP1067]",この講演では、これまでの実績から学んだAI基盤の最適化ポイントを探ります。データ処理の効率化、処理性能向上のためのベストプラクティス、さらに未来の技術動向とその実装に焦点を当てながら、AIの全データ活用にむけた展望を示します。
+エヌビディア製品搭載の群制御ロボットが実現する全く新しい自動倉庫 [SJP1040],"本セッションでは、エヌビディアの技術を活用したロボットが実現する柔軟性と生産性の限界を押し広げる最新の自動倉庫（ASRS）の詳細を解説します。
+
+まず弊社がOmniverseによって倉庫の未来像を可視化する方法を紹介します。これには、AMRと呼ばれる自律走行ロボット、自動フォークリフト（AFL）、そしてASRSといった弊社ソリューションの全体像をご紹介します。
+
+その後、最新製品である自在型自動倉庫「ラピュタASRS」の詳細を解説します。レールやシャトルによって限られた動作で稼働する従来のASRSと比較して、弊社ASRSとの違いをご説明します。本製品の開発には、非常に高度な知能を持つロボットが多くの判断を下し、狭いスペースで動作することが求められました。
+また、ロボット外縁の4面に搭載されたカメラからの画像を使用して、人間などの予測不能なエラーに対してシステム側でどのように対応し、通信が一時的に途絶えてしまうような状況でも安定稼働するシステムをどう構築したのかという点も解説いたします。"
+ソニーのテクノロジーで実現する没入型空間コンテンツ制作システム [SJP1088],「クリエイティビティとテクノロジーの力で、世界を感動で満たす。」を目標に、ソニーでは最先端のテクノロジーによって、メタバースの世界の実現に取り組んでいます。本セッションでは、2024年１月に発表し、いよいよ発売開始が迫ってきた、新型XR HMDを用いた没入型空間コンテンツ制作システムの概要、テクノロジー、産業分野での活用方法について、シーメンス社のNX製品との取組みや先行事例、および、NVIDIA Omniverse 連携の可能性を踏まえてご紹介します。
+ソブリン AI 、その役割と創造する新たな可能性 [SJP1024],AI によってあらゆる社会が大きく変革する中、自国の競争力を強化し将来を守るために、自国のAIインフラ、データ、労働力、ビジネスネットワークを用いて AIを開発し活用する能力、つまり「ソブリンAI」への投資が多くの国々で加速しています。当パネルセッションでは、日本におけるソブリン AI 実現において中核的な役割を担う経済産業省、AIモデル開発事業者、AIインフラ提供者、そしてその発展を支える研究者と共に、ソブリンAIの重要性や日本や他国の取組み状況、社会実装に向けた課題や取るべき施策について議論します。
+ソブリン AI の日本戦略と ABCI3.0 [SJP1063],"生成AIが地球規模の変革をもたらす「触媒」となる中、日本国内における生成AIの研究開発能力を迅速に育成していくことが極めて重要となっています。これに対し、NEDOポスト5G事業の一環として実施中の生成AI開発加速プロジェクト「GENIAC」や、「クラウドプログラム」による計算資源整備など、経済産業省主導で様々な取り組みが進められています。
+産総研グループが2018年より提供してきたAI計算基盤「ABCI」もまた、生成AIモデルをはじめとした最先端AI技術の研究開発能力の強化を目的として、来年初頭に「ABCI 3.0」に生まれ変わります。ABCI 3.0は、一兆パラメータ超級の大規模言語モデルやマルチモーダルAI等、世界に伍する最先端AI技術開発を可能にします。
+本セッションでは、経済産業省の取り組みについて概観するとともに、ABCI 3.0の概要や運営方針についてご紹介します。"
+"（同時通訳付）Generative AI Built by You, for You  [SJP1096]","企業、組織、および主権国家は、生成 AI アプリケーションを構築し、適応させていますが、それぞれに固有の知識、言語、およびスキルの要件があります。NVIDIA NIM Agent Blueprintは、標準的な 生成 AI ユースケースのためのリファレンス ワークフローであり、企業データを使ってカスタマイズされ、ユーザーからのフィードバックに基づいて継続的に改良されることで、データ駆動型の AI フライホイールを構築します。本セッションでは、最新のNIM Agent Blueprintsと、それを活用して 生成 AIを構築する方法についてご紹介します。また、NVIDIA NeMo,  NIM 推論 マイクロサービス、NVIDIA AI Foundryを含むブループリントの主要要素についてもご説明します。
+
+
+Enterprises, organizations, and sovereign nations are building and adapting applications to be powered by generative AI, but they have unique knowledge, language, and skill requirements. NVIDIA NIM Agent Blueprints are reference AI workflows for canonical generative AI uses cases that can be customized with enterprise data and continually refined based on user feedback, creating a data-driven AI flywheel. In this session, hear about the newest NIM Agent Blueprints and how to leverage them to build your generative AI. We will also review key elements of the Blueprints including NIM inference microservices NVIDIA NeMo and the NVIDIA AI Foundry."
+（同時通訳付） Scaling Data Processing for Next Generation LLM Applications [SJP1095],大規模言語モデル (LLM) の進歩により、コード生成、言語変換、テキスト要約など、さまざまなアプリケーションを開発することが可能になりました。これらのモデルの効果は、LLM モデルのトレーニングに使用されるデータの品質に依存します。今日のデータは、PDF ファイル、表、文書など、さまざまな形式で存在します。このデータは、LLM モデルのトレーニングおよび (または) 微調整のための下流タスクに対して処理およびフィルタリングする必要があります。このセッションでは、これらの LLM アプリケーションをサポートするために、大規模なデータセットを処理する際の主要な課題と解決策を探ります。
+"4 つの ”S” で進化させるエクイニクスのプライベート AI インフラ, presented by エクイニクス [SJP1089]",急速に進歩するAIテクノロジーにおいて、企業はセキュリティ（Security）、スピード（Speed）、スケーラビリティ（Scalability）、そして持続可能性（Sustainability）のバランスを取る必要があります。エクイニクスの「プライベートAI」アプローチは、NVIDIAや大手ハイパースケーラーとの独占的パートナーシップにより、グローバルな事業展開と最先端のインフラストラクチャを組み合わせ、AI活用におけるお客様の課題を解決します。本セッションでは、液体冷却技術、セキュアなデータセンター、マルチクラウド接続などの高度なソリューションを活用して、エクイニクスが提供している高性能なAI対応のインフラストラクチャをご紹介します。また、エクイニクスが、AI導入において、迅速化、サステナビリティ、データプライバシーの管理を実現し、AI主導の世界における競争優位性を確保している方法についてもご説明します。イノベーションと4つの”S”が融合するAIインフラの未来をご体験ください。
+「AI for Science」で実現する 科学技術イノベ―ション  [SJP1056],"AIは特定分野にとどまらず、さまざまな分野で活用されるようになっています。科学技術もその例外ではありません。「AI for Science」は、科学の広範なデータに対し、生成AIなどのAI技術を適用することでブレイクスルーをもたらそうとするアプローチです。
+理研は、多様な科学研究データを活用した基盤モデルの追加学習などをすることで、ライフサイエンス、物質・材料などのさまざまな科学分野を対象としたアプリケーションの研究開発に取り組むとともに、そのためのデータ生成、関連する実験やシミュレーションの自動化・高速化技術開発、基盤モデルの性能評価、システムソフトウェア開発、データ管理技術やコンピューティングシステム運用技術の開発などの基盤技術の研究開発を進めています。
+本セッションでは、理研のAI For Scienceプロジェクトについて紹介し、AIがいかに科学技術にブレイクスルーを起こそうとしているかをご紹介します。"
+AI クリエイティブのためのデジタルヒューマン開発  [SJP1041],生成 AI を活用した広告制作のためのデジタルヒューマン技術の研究開発についてお話します。 サイバーエージェントでは2017年頃より CG 技術を基盤としたデジタルヒューマンの研究開発を進めてきましたが、近年は AI 技術の進展により開発手法も大きく変化してきています。AI を活用したデジタルヒューマンの制作や研究開発、NVIDIA 社と協業した技術開発などをご紹介します。
+NVIDIA AI Workbench ディープダイブ [SJP1104],"NVIDIA AI WorkbenchはAI開発者向けに設計された統合ワークスペースツールキットです。
+開発環境を簡単にインストールでき、ローカル環境から開発を始め、必要に応じてデータセンターやクラウドに簡単に拡張できるという特徴があります。
+本セッションは、そのディープダイブとしてNVIDIA AI Workbenchの詳細やGithubで公開しているExapmleProjectの中からHybrid RAG等、いくつかのものをデモでご紹介します。
+"
+"デロイト トーマツが実装する AI エージェントを核とした、業界を変革する NVIDIA ソリューション Quartz AI™, presented by デロイト トーマツ コンサルティング合同会社 [SJP1080]","デロイト トーマツは、NVIDIAの最先端AI技術を基盤に構築したAIエージェントテクノロジーで、業界の枠を超えた変革を実現しています。これらのAIエージェントは、業務の効率化、顧客体験の向上、新たなビジネスモデルの創出を可能にし、医療、金融、製造、小売といった多様な分野で革新を推進しています。また、デジタルツイン化の技術で製造業などの変革をリードします。
+AI技術が進化する中で、その可能性は無限に広がり、デロイト トーマツはNVIDIAとの連携を一層強化し、独自のQuartz AI™を通じて革新的なソリューションを提供します。本セッションでは事例も交えて、皆様のビジネスに新たな未来を切り開く知見をお届けします。
+"
+"（同時通訳付）Generative AI and Robotics Are Accelerating Healthcare 4.0, From AI Assistants to Autonomous Agents [SJP1050]","医療業界はこれまでにない成長を遂げています。生成AIとロボティクスがエコシステムを支え、これまでにない臨床効果をもたらすアプリケーションの構築を可能にしています。創薬やデジタルバイオロジーから、ロボット手術や個別化された患者ケアに至るまで、医療は技術の力強い推進力となり、イノベーションを促進し、あらゆる分野から投資を集めています。NVIDIAのヘルスケアおよびライフサイエンス部門の副社長であるキンバリー・パウエルが、NVIDIAが取り組むこの変革の最前線をご紹介します。
+
+The healthcare industry is experiencing unprecedented growth, propelled by generative AI and robotics that enable the ecosystem to build applications that drive unprecedented levels of clinical impact. From drug discovery and digital biology to robotic surgery and personalized patient care, healthcare is emerging as a technological powerhouse, accelerating innovation and attracting investment from across the landscape. Join Kimberly Powell, NVIDIA’s Vice President of Healthcare and Life Sciences, as she explores how NVIDIA is at the forefront of this transformation. "
+（同時通訳付）Robotics and Physical AI in the Era of Generative AI [SJP1093],"本セッションでは、NVIDIAの「3コンピューターフレームワーク」— NVIDIA AI、Omniverse、Isaac — が、生成AI対応ロボットの世界的な開発をどのように加速しているかについてご紹介いたします。NVIDIA、およびパートナーエコシステムからの最新の画期的なイノベーションをいくつかご紹介し、AIがいかに産業デジタル化の主要な取り組みを前進させているかをお見せします。
+
+
+ 
+The age of physical and embodied AI has arrived. Join this session to learn how NVIDIA’s “3 computer framework” – NVIDIA AI, Omniverse, and Isaac – is accelerating global development of generative AI-enabled robots. We’ll show some of the latest groundbreaking innovations from NVIDIA and our partner ecosystem and show how this next wave of AI is advancing major initiatives across industrial digitalization."
+大規模モデルの学習知見 [SJP1035],GENIAC プロジェクトにおける 172B 規模の LLM の学習をはじめとする大規模モデルの学習には、分散学習に関する知識と、大規模な計算機環境を使いこなす知見が必要です。本セッションでは、Megatron-LM を用いた大規模モデルの実例と知見について紹介します。
+映像認識 × LLM：見えるものから見えないものへ、そして生成技術まで [SJP1075],"本講演では、人物行動分析における画期的な進歩について紹介する。可視光カメラに加え、マイクロ波センサーなどの「見えない」技術の活用によりNECが開発したフレームワークにおいて、NVIDIA GPUの力を如何に発揮して人物の行動を分析するかを解説する。具体的には、定点カメラや360度カメラ、マイクロ波センサーなど、多角的な視点から人物の行動を捉えて理解するための統合システムについて深く掘り下げる。さらに、大規模言語モデル（LLM）と視覚言語モデル（VLM）を活用した動画要約や説明文章・報告書の自動生成技術に関する仕組みについても紹介する。特に、ドライブレコーダー映像から交通事故調査報告書を自動生成する事例を詳しく紹介する。本講演を通して、以下の3点を学ぶ。(1)定点カメラや360度カメラ、マイクロ波センサーなど、様々なセンシング技術がどのように現実世界のデータをデジタル化するか。(2)行動認識、物体追跡、人と物のインタラクション、シーン認識、行動パターン分析など、高度なアルゴリズムの応用。(3)人物行動を深く考察・理解するためのデータ抽出、可視化、要約の方法。これらの学びに加え、インタラクティブな技術デモを通じて、人物行動分析フレームワークの能力を実感し、効果的な処理技術とアルゴリズムについて理解を深めることができる。講演の最後に、人物行動理解と生成AIに関する課題と今後の方向性をまとめて概説する。
+
+ぜひ本講演に参加して、最新の情報を手に入れ、新しい技術を探求し、見えるものから見えないものへ、そして生成技術までに人物行動分析がもたらす変革と影響について理解を深めましょう。"
+NVIDIA 高速化ライブラリを用いた大規模言語モデルの最適化とデプロイメント [SJP1054],"本セッションではTensorRT-LLMをはじめとしたNVIDIAの高速化ライブラリとそれを用いた大規模言語モデルのインテグレーションについて紹介します。
+大規模言語モデル(LLM)を用いたサービスを構築には、回答の精度、生成速度、システムの堅牢性といった様々な課題があります。特に、近年の大規模言語モデル開発の拡大はPytorchをはじめとする様々なOSSに支えられている一方で、プロダクト化の観点においてどのようなソフトウェア、フレームワークを採用するかは重要な技術的判断を伴います。
+NTTコミュニケーションズではこうした採用技術に関する課題に対して、サステナビリティの観点からNVIDIA社自身が提供するOSSを利用した技術開発に取り組んでいます。
+本セッションではNTTグループの開発する独自LLM tsuzumi をケーススタディとし、NVIDIA社の提供する高速化ライブラリTensorRT-LLMを用いた生成速度の高速化や、NVIDIA社標準の推論フレームワークであるNIMへの適用のポイントについて解説します。"
+AIが加速する医療イノベーションの軌跡と社会イノベーションの未来 [SJP1066],"富士フイルムでは、2018年に医療分野におけるAI技術ブランド「REiLI」を立上げ、多数の診断支援アプリケーションを上市している。本講演では、当社が未来の医療イノベーション戦略として、IT・AI技術を活用した高付加価値の製品によって医療従事者の体験を変え、「モノ」から「モノ＋コト」による価値提供へ転換することで、当社独自の「唯一無二の医療バリューチェーン」形成を目指す取り組みをご紹介する。さらに、医療分野で培った技術や価値提供スキームなどの戦略をグループ全社に展開し、SVP2030の実現に向けた取り組みにも触れる。
+主なポイント：
+・AI技術による診断プロセスを支援し、診断ワークフローを向上させるための富士フイルムならではの強みを理解する。
+・NVIDIA DGX、クラウドGPUなどのインフラやCUDAなどのソフトウェアを活用して開発してきたAI技術が、医療機器・医療ITソリューションと連携して、どのように臨床ワークフローを加速するかについての洞察を得る。
+・新興国向けの健診センターNURAでの生成AIによる健診サービスの高度化への取り組みについて理解する。
+・AI技術を活用して、「モノ」から「モノ＋コト」による提供価値の循環・拡大するモデルを、生成AI技術の取込みでさらに拡張し、グループ内の主力事業へ展開する戦略について学ぶ。"
+これからの工場プラニングとAMRシミュレーション [SJP1053],Musashi AIは産業顧客向けに NVIDIA Omniverse 上でデジタルファクトリーを構築するサービスを提供しています。正確でフォトリアリスティックなデジタルツインを使用することで、ユーザーは工場のレイアウトのプラニングや AMR (自律移動ロボット) のルーティングを従来よりも効率的に行うことができます。Omniverse Platform を使用することで、顧客はデジタルツイン上で 工場の企画・設計段階、また完成直後にAMR 、AOI (自動光学検査)、ロボットアーム などを事前シミュレーションすることができ、迅速かつ正確な工場立ち上げを実現します。
+データサイエンスの高速化: GPU で加速する Polars と競技における特徴エンジニアリング [SJP1092],"データセットが複雑化し、量が増える中で、より速く効率的なデータ処理がこれまで以上に求められています。Pandas、Polars、NetworkXは、表形式データやグラフデータの処理に使われるPythonライブラリとして人気があり、使いやすく柔軟です。しかし、大規模なデータを扱うときには従来のコンピュータでは限界があります。
+
+この講演では、Pandas、Polars、NetworkXといった加速化されたデータサイエンスライブラリを使い、コードを変更せずに作業効率を10倍から最大600倍まで高速化できる方法を紹介します。さらに、GPUで加速されたPolarsが特に競技データサイエンスにおいて、どのようにデータ処理の効率を大幅に改善できるかを詳しく説明します。実際の競技での特徴エンジニアリングの例を通じて、Polarsのパフォーマンス最適化がどのように成果を引き出すかをお見せします。"
+バーチャルヒューマンと Omniverse の統合による技術革新と産業アップデート [SJP1036],Aww 株式会社が提供する世界最高峰のバーチャルヒューマン技術と NVIDIA Omniverse を組み合わせた最新技術のデモンストレーション。また、この最新技術がもたらす産業のアップデートやバーチャルヒューマンの展望について講演します。
+（同時通訳付）Building a Strategic Foundation for Generative AI [SJP1034],"イノベーションの加速、業務効率の向上、新たな収益源の開拓など、2024 年の企業はジェネレーティブAIをビジネス戦略の要に据えようとしている。この変革的なシフトは、規模に応じたAIの開発と導入の運用化という課題をもたらします。本セッションでは、AI トレーニングの効率化、大規模なコンピュート・クラスタ管理、データ・サイエンス・チームと開発者チームへのシームレスなアクセスの提供、エンド・ユーザー規模でのモデルのデプロイを支援する最新のインフラストラクチャー・イノベーションを探ります。NVIDIA のチャーリー・ボイルがAIインフラストラクチャの最新動向を掘り下げ、日本の AI リーダーが実際に導入した事例について語ります。
+
+Whether it's to accelerate innovation, enhance operational efficiency, or unlock new revenue streams, enterprises in 2024 are making generative AI a cornerstone of their business strategies. This transformative shift brings with it the challenge of operationalizing AI development and deployment at scale. In this session, we’ll explore the latest infrastructure innovations that help ensure efficiency of AI training, large-scale compute cluster management, providing seamless access to data science and developer teams, and deploying models at end-user scale. Join NVIDIA's Charlie Boyle as he delves into the latest trends on AI infrastructure and discusses real-world deployments from some of Japan’s AI leaders."
+（同時通訳付）Building a World Class AI Lab in Japan [SJP1037],"AI の研究開発は世界的に非常に重要なテーマです。現在、研究開発の大部分はアメリカと中国で行われていますが、全体的な取り組みは国際的です。Sakana AI は日本における新進気鋭の世界クラスの AI ラボです。
+
+AI に関する技術講演は多くありますが、それらは主に既存の AI 技術のビジネスや企業への応用に焦点を当てています。本セッションでは、日本およびアジア全体のために、日本で最先端の AI 研究開発を行う可能性について議論するフォーラムを持ちたいと考えています。議論されるトピックは AI の進化を形作り、今後数十年にわたって世界の技術開発を効果的に加速させるはずです。
+
+この講演イベントの主な焦点は研究面にあり、将来の AI 製品に登場する最先端の AI 開発について話し合います。
+"
+"（同時通訳付）Revolutionizing Wireless Communication with AI-RAN: Vision, Use-cases & Platform [SJP1100]","この講演では、ソフトバンクのAI-RANビジョン、その重要性、現実的なユースケースについて説明し、その後にAI-RAN製品の詳細が議論されます。次に、NVIDIAがアクセラレーテッド コンピューティングハードウェアとソフトウェアを使用してソフトバンクのビジョンをどのように支援するか、さらにデジタルツイン、NIM、およびその他のプラットフォームについて説明します。AI-RAN技術の未来について学ぶこの機会をお見逃しなく。
+
+Join us for an insightful exec panel discussion where SoftBank and NVIDIA will demystify pragmatic AI-RAN. The talk will cover SoftBank's AI-RAN Vision, its importance, and realistic use cases, followed by details of AI-RAN products. NVIDIA will then explain how to double down SoftBank’ vision with its accelerated computing hardware and software, not to mention Digital Twin, NIM, and other platforms. Don't miss this opportunity to learn about the future of AI-RAN technology."
+（同時通訳付）量子グランドチャレンジのための AI スーパーコンピューティング AI Supercomputing for Quantum's Grand Challenges [SJP1049],"量子コンピューティングは、産業に革命をもたらし、ハイパフォーマンス・コンピューティングの新時代を切り開く可能性を秘めている。しかし、この可能性を実現するには、AIスーパーコンピューティングがアルゴリズム研究に取り組み、有用な量子デバイスの開発を阻む設計、制御、統合の課題を克服できるかどうかにかかっている。本講演では、GPU アクセラレーテッドシミュレーション、AI  強化アルゴリズム、緊密に連携した HPC 制御システムによって実現される、大規模で商業的に利用可能なハイブリッド量子デバイスの将来像を明らかにする。
+
+Quantum computing has the potential to revolutionize industries and usher in a new era of high-performance computing. However, realizing this potential hinges on AI supercomputing's ability to tackle algorithm research and overcome the design, control, and integration challenges that obstruct the development of useful quantum devices. This talk unveils the future landscape of large-scale, commercially viable, hybrid quantum devices, enabled by GPU-accelerated simulations, AI-enhanced algorithms, and tightly coupled HPC control systems."
+日本語に強い大規模言語モデルのレシピ [SJP1062],OpenAI の ChatGPT のような汎用的なチャットボットはどのように作られているのか？　これは、世界中の人工知能の研究者の多くが２年前に抱いた疑問であろう。公開されている情報から大規模言語モデルの作り方は推測できたが、果たして自分たちで作ることができるのか？　東京科学大学（旧・東京工業大学）と産業技術総合研究所の研究チームで大規模言語モデル Swallow の研究・開発を始めたのは、これらの問いをいち早く明らかにし、日本の大規模言語モデルの研究開発の底上げをすることが狙いであった。本講演では、Llama 3 や Mistral の継続事前学習で大規模言語モデルを構築し、多くの性能評価実験を行った経験を踏まえて、日本語に強い大規模言語モデルのレシピ、およびその将来像に迫る。
+日立 生成 AI 活用の実践：業務特化型 LLM の構築・運用によるビジネス変革 presented by 株式会社日立製作所 [SJP1102],"2024年に入り、多くの企業で生成AIの試行から実用への移行が進んでいます。日立では、社内外で1,000件以上の生成AI活用ユースケースを蓄積してきました。この豊富な知見と技術を活かし、業務特化型のLLM（大規模言語モデル）を構築・運用することで、汎用LLMとRAGだけでは専門知識の活用が難しい業務にも対応するなど、生成AI活用での新たな取組みを推進しています。本講演では、お客様のデータをお預かりし、日立のノウハウと環境を活用して業務に最適化したLLMを作成・提供する、まさに「LLMの工場」をめざした日立ならではの取り組みを中心にご紹介します。生成AIがもたらす価値を引き出し、ビジネス変革を実現する方法をお伝えします。"
+Hopper および Grace Hopper と InfiniBand NDR を採用した最新スーパーコンピュータのデザイン [SJP1043],"このパネルディスカッションでは、日本を代表するスーパーコンピューティングセンターにより最新のGPU+InfiniBandシステムについて議論し、各センターの知見を共有します。
+筑波大学と東京大学が共同で運営する最先端共同HPC基盤施設(JCAHPC)からは日本最大のGH200システムMiyabiの評価、長年GPUスパコンを運用している東京科学大学(旧: 東京工業大学)からはTSUBAME4.0におけるMIGを用いた効率的なジョブスケジューリングシステム、高性能通信技術の取り組みを続けている九州大学からは10月に本運用を開始した玄界におけるSHARP技術の評価、について実例を交えて紹介し、スーパーコンピュータがどのようにデザインされているかを探ります。"
+Omniverse Configurator Extension で作る 三協フロンテア・ユニットハウスのコンフィギュレーター構築 [SJP1042],Omniverse の新たな機能として、コンフィギュレーター構築の為のエクステンションがリリースされました。この拡張機能を使用してコンフィギュレーターを構築すると制作効率が良くなり、工数が圧倒的に短縮されます。実際に USD データを構築していく手順を踏まえ、リアルタイムコンフィギュレーターからどのような恩恵が受けられるのか、について詳しく解説します。
+TensorRT-LLMによる推論高速化 [SJP1058],"LLMの利用の裾野の広がりともに、独自に構築したモデルを効率的にサービングするために、様々な推論ライブラリが利用されるようになった。
+それら推論ライブラリの中でも、NVIDIAが提供するTensorRT-LLMは推論処理効率化のための技術が幅広く実装されており、さらにパラメータをきめ細かく設定することが可能になっている。
+本講演では日本語LLMの評価を目的に構築されたllm-jp-evalを題材に、バッチ推論や量子化などの各種設定が推論速度や出力内容に与える影響についての評価結果を報告する。"
+"エンタープライズ及びネットワークにおける富士通の AI 戦略, presented by 富士通株式会社 [SJP1071]",デジタル変革の時代において、富士通は様々な業界でイノベーションと効率化を推進するためAI戦略を展開しています。このセッションでは、生成AIの業務適用と、AI Radio Access Network (RAN) という2つの事例を通じて、富士通のAI戦略について説明します。前半は、企業向けのAIソリューションについて説明します。企業での生成AIの導入においては、多様で大量な企業データの取り扱い、企業ごとの様々なユースケースへの対応、企業規則や法令への準拠などの課題があります。これらの課題を解決するソリューションとして、富士通のエンタープライズ生成AIフレームワークと、このフレームワークにおけるキーテクノロジーとしてLLM「Takane」、PRIMERGY CDI (Composable Disaggregated Infrastructure) などを紹介します。後半は、通信業界に焦点を置き、イノベーションと効率化を推進するためのAIとRANの統合について説明します。富士通はAIを活用することで、ネットワークの性能を向上させ、運用コストを削減し、エンドユーザーエクスペリエンスの品質を向上させることを目指しています。イノベーションを推進する上でのAIの役割について、一緒に掘り下げてみませんか。このセッションに参加することで、AIにおける課題とオポチュニティー、課題を解決する富士通のAI技術、適用事例等について学ぶことができます。
+"ソフトバンクが考える AI - RAN の基盤技術と AI ユースケース, presented by ソフトバンク株式会社 [SJP1106]",本講演では、ソフトバンクが実現するAI-RANの姿と、それに向けた具体的な取り組みをご紹介します。私たちの考えるAI-RANは、通信業界のみならず社会全体に革新的な影響をもたらす可能性を秘めています。AI-RANの特徴や強み、具体的な活用事例、将来の展望について、現在進めている開発状況を交えて詳しくお伝えします。ぜひ会場で、ソフトバンクが描くAI-RANの未来をご体感ください。
+事前学習したAIを用いた産業用ロボットのSim to Real最前線 [SJP1033],"産業用ロボットは、多くの製造業の自動化に欠かせない構成要素として機能してきた。しかしながら、モノづくりの中身が大量生産から多品種少量生産に移行する中で、生産現場では機械に置き換えられない複雑なタスクの多くは未だに自動化されずに残っている。このようなタスクを自動化するには、事前に学習されたAIモデルを用いる手法が提唱されているが、SimulationとReal Worldとの乖離などの課題により、多くの意欲的なAIモデルによるチャレンジが現場ではうまく働かず実用化にいたっていない。
+NVIDIAのシミュレーション技術と産業用ロボットメーカの制御モデルの相互協力により、Sim to Realのギャップを埋め、Simulatorでの学習結果をそのまま現実世界で活用するための解決策について、最新の取組みを交えて紹介する。
+
+"
+企業活動および社会基盤で AI を活用するうえでの勘所 presented by 日本オラクル株式会社 [SJP1101],"企業活動において、付加価値業務に経営資源を寄せるべく間接業務の効率化および省人化の手段として、もしくは意思決定の精度向上の手段としてAIに注目が集まっています。また、労働生産人口の低下、防災など社会課題の解決手段としてもAIに対する期待はますます高まっています。
+一方、取り扱いに神経質にならざるを得ない情報・データを如何に安心・安全に取り扱いつつAIがもたらす価値を最大化させるか、といった課題に直面されている方々も少なくありません。本セッションでは、安心・安全にAIを活用するうえで役立つ勘所をご紹介いたします。"
+（同時通訳付）A Deep Dive Into Architecting DGX Blackwell Clusters for Generative AI [SJP1038],"生成 AI モデルの種類やサイズ及びその処理スピードへのニーズが高まり続ける中、コンピューティング インフラはこれらを確実に処理できるように適応する必要があります。Blackwell アーキテクチャを導入する際にそのニーズに以下に対応するかについて、その性能、電力、熱（空冷と液冷）の最適なトレードオフを可能にする DGX システム、ネットワーク ファブリック、インターコネクト、ストレージの設計に関する哲学と方法論をご説明します。DGX スーパーコンピュータである Eos と Selene の設計者による当講演によって、生成 AI のニーズを満たす次世代クラスタをどのように構築しているかについての理解を深めていただけます。
+
+
+
+As the variety and size of generative AI models and the processing needs continue to increase, the compute infrastructure needs to adapt to be able to handle these reliably. As we deploy with NVIDIA Blackwell architecture, we’ll review the philosophy and methodology behind the designs of NVIDIA DGX™ systems, network fabric, interconnect, and storage needed to enable optimal trade-offs among performance, power, and thermal (air-cool and liquid-cool). You’ll meet the architects of DGX supercomputers Eos and Selene and gain insights to how they're creating next-gen clusters to power your generative AI needs"
+自然着想型アプローチによる基盤モデルの研究開発 [SJP1048],Sakana AI は、自然から着想を得たアプローチで最先端の基盤モデルを進化させるという分野を切り開いています。今年の3月には、大規模言語モデル(LLM)を含む複数の基盤モデルの統合を自動化する方法を開発し、さらに6月には、LLM を使って、LLM をより効率的にトレーニングする方法を発見しました。本セッションでは、これら Sakana AI における最新の研究開発の成果についてご紹介します。

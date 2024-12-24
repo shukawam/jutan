@@ -1,0 +1,6 @@
+__pycache__
+.vscode
+.venv
+wallet
+.env
+faiss_index

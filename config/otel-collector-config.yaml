@@ -1,0 +1,65 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317
+      http:
+        endpoint: 0.0.0.0:4318
+
+extensions:
+  headers_setter:
+    headers:
+      - action: upsert
+        key: X-Scope-OrgID
+        value: tenant1
+
+processors:
+  batch:
+
+exporters:
+  otlp/tempo:
+    endpoint: tempo:4317
+    tls:
+      insecure: true
+  otlphttp/apm:
+    endpoint: "https://aaaaddtuwwwg6aaaaaaaaacsxy.apm-agt.ap-tokyo-1.oci.oraclecloud.com/20200101/opentelemetry/private/"
+    headers:
+      Authorization: "dataKey ${OCI_APM_PRIVATE_DATA_KEY}"
+  debug:
+    verbosity: detailed
+    sampling_initial: 5
+    sampling_thereafter: 200
+  prometheus:
+    endpoint: "0.0.0.0:8889"
+  otlphttp/loki:
+    endpoint: http://loki:3100/otlp
+    tls:
+      insecure: true
+    headers:
+      "X-Scope-OrgID": "tenant1"
+
+service:
+  pipelines:
+    traces:
+      receivers:
+        - otlp
+      processors:
+        - batch
+      exporters:
+        # - otlp/tempo
+        - otlphttp/apm
+        - debug
+    # metrics:
+    #   receivers:
+    #     - otlp
+    #   exporters:
+    #     - prometheus
+    #     - otlphttp/traceloop
+    # logs:
+    #   receivers:
+    #     - otlp
+    #   processors:
+    #     - batch
+    #   exporters:
+    #     - otlphttp/loki
+    #     - debug
