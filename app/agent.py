@@ -53,27 +53,26 @@ class JutanAgent:
             wallet_location=wallet_location,
             wallet_password=wallet_password,
         )
-        retriever = vector_store.get_retriever(top_k=top_k, use_reranker=use_reranker, top_n=top_n)
+        retriever = vector_store.get_retriever(
+            top_k=top_k, use_reranker=use_reranker, top_n=top_n
+        )
         keyword_gen_prompt = ChatPromptTemplate.from_template(
             template="""
             あなたは、AI分野に詳しい専門家です。
             与えられた質問に対して関連するキーワードを3つ連想してください。
-            回答は、以下の形式に則って出力してください。
             
-            ## 質問
+            ---
+            
+            質問:
             {question}
             
-            ## 出力形式
+            ---
+            
+            回答は、以下の形式に則って出力してください。
+            
+            出力形式:
             キーワード1, キーワード2, キーワード3
             """
-        )
-        compartment_id = os.getenv("COMPARTMENT_ID")
-        keyword_gen_llm = ChatOCIGenAI(
-            auth_type="INSTANCE_PRINCIPAL",
-            model_id="meta.llama-3.1-70b-instruct",
-            compartment_id=compartment_id,
-            service_endpoint="https://inference.generativeai.ap-osaka-1.oci.oraclecloud.com",
-            model_kwargs={"max_tokens": 1024, "temperature": 0.7},
         )
         prompt = ChatPromptTemplate.from_template(
             template="""
@@ -82,15 +81,21 @@ class JutanAgent:
             セッション案内は、検索によって得られたセッションリスト以外を用いてはいけませんし、嘘の情報を出力することもいけません。
             また、質問者にとってどの程度おすすめできるかのスコア(10段階評価)とその理由も算出してください。
             提案は、最大3セッションまでとしてください。
-            出力は、以下に指定するフォーマット通り出力してください。
             
             ---
+            
+            質問:
+            {question}
             
             キーワード:
             {keyword}
             
             コンテキスト:
             {context}
+            
+            ---
+            
+            出力は、以下に指定するフォーマット通り出力してください。
             
             出力フォーマット:
             #### セッションタイトル
@@ -100,18 +105,22 @@ class JutanAgent:
             <セッションの概要>
             
             #### おすすめ度
-            <スコア>/10
+            <スコア>/10\n
             <理由>
             """
         )
+        keyword_generator_chain = (
+            {"question": RunnablePassthrough()}
+            | keyword_gen_prompt
+            | self.llm
+            | StrOutputParser()
+        )
         responder_chain = (
             {
-                "keyword": (
-                    {"question": RunnablePassthrough()}
-                    | keyword_gen_prompt
-                    | keyword_gen_llm
-                    | StrOutputParser()),
-                "context": retriever}
+                "question": RunnablePassthrough(),
+                "keyword": keyword_generator_chain,
+                "context": retriever,
+            }
             | prompt
             | self.llm
             | StrOutputParser()
